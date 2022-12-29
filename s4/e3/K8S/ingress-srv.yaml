@@ -20,7 +20,7 @@ spec:
           - path: /api/c/platforms
             pathType: Prefix
             backend:
-              service:
+              service:  
                 name: commands-clusterip-srv
                 port:
                   number: 80
